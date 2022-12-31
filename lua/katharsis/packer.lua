@@ -7,6 +7,7 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
 
+    -- Fuzzy finder
     use {
         -- or                            , branch = '0.1.x',
         'nvim-telescope/telescope.nvim', tag = '0.1.0',
@@ -47,6 +48,7 @@ return require('packer').startup(function(use)
         }
     }
 
+    -- For commenting code easily
     use {
         'numToStr/Comment.nvim',
         config = function()
@@ -54,15 +56,25 @@ return require('packer').startup(function(use)
         end
     }
 
+    -- Embedded Terminal
     use {"akinsho/toggleterm.nvim", tag = '*', config = function()
-        require("toggleterm").setup()
         require("toggleterm").setup()
     end}
 
+    -- Undo tree :D
     use("mbbill/undotree")
 
+    -- Honestly have no clue what this is
     use("nvim-lua/plenary.nvim")
+
+    -- Pretty status line <3
     use('tamton-aquib/staline.nvim')
 
+    -- Indendation Guidelines
+    use("lukas-reineke/indent-blankline.nvim")
+
+    -- Status line
+    use('nvim-tree/nvim-web-devicons')
+    use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
 
 end)
