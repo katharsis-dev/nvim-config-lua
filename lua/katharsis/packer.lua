@@ -77,4 +77,12 @@ return require('packer').startup(function(use)
     use('nvim-tree/nvim-web-devicons')
     use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
 
+    -- File explorer
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = {
+            'nvim-tree/nvim-web-devicons', -- optional, for file icons
+        }
+    }
+
 end)
