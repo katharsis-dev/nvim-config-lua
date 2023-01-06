@@ -85,4 +85,9 @@ return require('packer').startup(function(use)
         }
     }
 
+    use {
+        'kkoomen/vim-doge',
+        run = ':call doge#install()'
+    }
+
 end)
