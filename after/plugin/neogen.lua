@@ -12,4 +12,4 @@ require('neogen').setup {
         },
     }
 }
-vim.api.nvim_set_keymap("n", "<Leader>c", ":lua require('neogen').generate()<CR>", opts)
+vim.api.nvim_set_keymap("n", "<Leader>d", ":lua require('neogen').generate()<CR>", opts)

@@ -25,8 +25,8 @@ map('n', '<A-8>', '<Cmd>BufferLineGoToBuffer 8<CR>', opts)
 -- map('n', '<A-.>', '<Cmd>BufferLineCyclePrev<CR>', opts)
 -- map('n', '<A-,>', '<Cmd>BufferLineCycleNext<CR>', opts)
 
-map('n', '<A-,>', '<Cmd>bnext<CR>', opts)
-map('n', '<A-.>', '<Cmd>bprevious<CR>', opts)
+map('n', '<A-.>', '<Cmd>bnext<CR>', opts)
+map('n', '<A-,>', '<Cmd>bprevious<CR>', opts)
 
 map('n', '<A-w>', '<Cmd>bdelete<CR>', opts)
 
