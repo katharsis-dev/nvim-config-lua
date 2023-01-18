@@ -95,4 +95,6 @@ return require('packer').startup(function(use)
         -- tag = "*"
     }
 
+    use("mfussenegger/nvim-jdtls")
+
 end)
