@@ -85,6 +85,7 @@ return require('packer').startup(function(use)
         }
     }
 
+    -- For automatically generating doc strings.
     use {
         "danymat/neogen",
         config = function()
