@@ -1,3 +1,7 @@
+-- https://github.com/mfussenegger/nvim-jdtls
+-- Installation Steps:
+-- Install Install eclipse.jdt.ls and add that to this file
+
 local config = {
     cmd = {'/home/brytton/Downloads/bin/jdtls'},
     root_dir = vim.fs.dirname(vim.fs.find({'.gradlew', '.git', 'mvnw'}, { upward = true })[1]),

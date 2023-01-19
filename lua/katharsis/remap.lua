@@ -35,3 +35,7 @@ vim.keymap.set("n", "<A-j>", "<C-w>j")
 vim.keymap.set("n", "<A-k>", "<C-w>k")
 vim.keymap.set("n", "<A-l>", "<C-w>l")
 
+-- For better splitting
+vim.keymap.set("n", "<leader>l", "<C-w>v<C-w>l")
+vim.keymap.set("n", "<leader>j", "<C-w>s<C-w>j")
+vim.keymap.set("n", "<leader>x", "<C-w>b")
