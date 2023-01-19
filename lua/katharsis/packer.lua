@@ -98,4 +98,6 @@ return require('packer').startup(function(use)
 
     use("mfussenegger/nvim-jdtls")
 
+    use('eandrju/cellular-automaton.nvim')
+
 end)
