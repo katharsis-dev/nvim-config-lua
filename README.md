@@ -2,5 +2,5 @@
 
 How to install:
 ```
-git clone ~/.config/nvim
+git clone https://github.com/katharsis-dev/nvim-config-lua.git ~/.config/nvim
 ```
